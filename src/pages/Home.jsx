@@ -1,6 +1,7 @@
 import React from 'react'
-import Product from '../features/Product'
-import Cart from '../features/Cart'
+import Product from "../features/Product"
+import Cart from '../features/Cart';
+
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <Product/>
        </section>
 
-       <section className='border'>
+       <section>
         <Cart/>    
        </section>
     </main>

@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import Navbar from './layouts/Navbar';
 import Home from "./pages/Home";
-import SignIn from "./auth/SignIn"
-import SignUp from "./auth/SIgnUp"
+import SignIn from "./auth/SignIn";
+import SignUp from "./auth/SIgnUp";
 
 
 function App() {
