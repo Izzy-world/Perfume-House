@@ -12,7 +12,7 @@ const Home = () => {
         <Product/>
        </section>
 
-       <section>
+       <section className=''>
         <Cart/>    
        </section>
     </main>

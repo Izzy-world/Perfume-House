@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <>
       <main className="">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="flex flex-col items-center md:grid md:grid-cols-3 gap-6">
           {products.map((Product) => {
             return (
               <div key={Product.id} className="card bg-base-100 w-[300px] md:w-[256.62px] md:h-[415.55px] border-[1.14px] border-[#F3F2FB] rounded-[4.56px] shadow-sm  ">
